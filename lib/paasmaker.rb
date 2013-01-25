@@ -171,5 +171,18 @@ module Paasmaker
         def get_port()
             return @port
         end
+
+        # Helper to fetch the rails environment. The way this works is
+        # that it looks for the <tt>RAILS_ENV</tt> key on the workspace
+        # metadata, and uses that if found. If not, it uses the default
+        # supplied.
+        def get_rails_env(default)
+            workspace_tags = get_workspace_tags()
+            if workspace_tags.has_key?('RAILS_ENV')
+                return workspace_tags['RAILS_ENV']
+            else
+                return default
+            end
+        end
     end
 end
