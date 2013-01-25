@@ -1,0 +1,18 @@
+services:
+  parameters:
+    foo: bar
+    provider: paasmaker.service.parameters
+
+application:
+  name: test
+  version: 1
+  workspace: Test
+  workspace_stub: test
+
+workspace:
+  tag: one
+  two: tag
+
+node:
+  tag: one
+  two: tag

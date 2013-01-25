@@ -1,0 +1,4 @@
+services:
+  parameters:
+    foo: bar
+    provider: paasmaker.service.parameters

@@ -1,0 +1,8 @@
+services:
+  parameters:
+    foo: bar
+    provider: paasmaker.service.parameters
+
+application:
+  name: test
+  workspace_stub: test
