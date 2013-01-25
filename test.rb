@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require "./paasmaker/interface.rb"
+require "./lib/paasmaker"
 require "test/unit"
 require "json"
 
