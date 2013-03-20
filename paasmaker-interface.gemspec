@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "paasmaker-interface"
-  s.version     = "0.9"
+  s.version     = "0.9.0"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Daniel Foote"]
   s.email       = ["freefoote@paasmaker.org"]
