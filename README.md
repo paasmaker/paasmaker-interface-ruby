@@ -83,3 +83,9 @@ Example JSON configuration file:
 	}
 }
 ```
+
+Testing
+-------
+
+To run the unit tests for the interface, just execute test.rb
+in the root of the project.
