@@ -1,3 +1,7 @@
+# Copyright (c) 2013 Daniel Foote.
+#
+# See the file LICENSE for copying permission.
+# The licence is the MIT licence.
 
 # TODO: What Gem is required to make YAML work?
 require 'yaml'
